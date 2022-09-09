@@ -1,0 +1,14 @@
+2020-05-14T15:50:18.130+0000 I CONTROL  [initandlisten] MongoDB starting : pid=6295 port=27017 dbpath=/u02/mongo/db/ 64-bit host=main.grup01.bdnr
+2020-05-14T15:50:18.130+0000 I CONTROL  [initandlisten] db version v4.0.2
+2020-05-14T15:50:18.130+0000 I CONTROL  [initandlisten] git version: fc1573ba18aee42f97a3bb13b67af7d837826b47
+2020-05-14T15:50:18.130+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1e-fips 11 Feb 2013
+2020-05-14T15:50:18.130+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2020-05-14T15:50:18.130+0000 I CONTROL  [initandlisten] modules: none
+2020-05-14T15:50:18.130+0000 I CONTROL  [initandlisten] build environment:
+2020-05-14T15:50:18.130+0000 I CONTROL  [initandlisten]     distmod: rhel70
+2020-05-14T15:50:18.130+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2020-05-14T15:50:18.130+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2020-05-14T15:50:18.130+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true }, processManagement: { fork: true }, security: { authorization: "enabled", keyFile: "ssl/mongodb.pem" }, storage: { dbPath: "/u02/mongo/db/" }, systemLog: { destination: "file", path: "/home/student/mongo_info/mongod.log" } }
+2020-05-14T15:50:18.155+0000 I STORAGE  [initandlisten] exception in initAndListen: DBPathInUse: Unable to lock the lock file: /u02/mongo/db/mongod.lock (Unknown error). Another mongod instance is already running on the /u02/mongo/db/ directory, terminating
+2020-05-14T15:50:18.155+0000 I CONTROL  [initandlisten] now exiting
+2020-05-14T15:50:18.155+0000 I CONTROL  [initandlisten] shutting down with code:100

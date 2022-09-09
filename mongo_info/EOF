@@ -1,0 +1,9 @@
+#!/bin/bash
+db.createUser({
+user: "sys",
+pwd: "mongo",
+db:"admin",
+
+roles: [{"role":"root" , "db":"admin"}]
+}
+)
